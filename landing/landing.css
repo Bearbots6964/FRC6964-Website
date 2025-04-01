@@ -33,6 +33,11 @@ body {
     height: 70px;
 }
 
+.navbar p{
+    color: var(--gold);
+    font-weight: bold;
+}
+
 .logo {
     display: flex;
     align-items: center;

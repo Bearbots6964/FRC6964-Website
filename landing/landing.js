@@ -20,7 +20,12 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
     
-    // Smooth scrolling for navigation links
+    // Apply smooth scrolling to initial links
+    applySmoothScrolling();
+});
+
+// Make the function globally accessible
+function applySmoothScrolling() {
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
             e.preventDefault();
@@ -36,4 +41,4 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
-});
+}
