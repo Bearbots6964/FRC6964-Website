@@ -1,0 +1,36 @@
+{
+  "name": "bearbots-site",
+  "version": "1.0.0",
+  "description": "A website designed for the FRC6964 team",
+  "main": "main.js",
+  "scripts": {
+    "test": "test",
+    "build": "webpack",
+    "start": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bearbots6964/-FRC6964-Website.git"
+  },
+  "keywords": [
+    "bearbots",
+    "frc",
+    "6964",
+    "bearbots6964"
+  ],
+  "author": "FRC6964",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bearbots6964/-FRC6964-Website/issues"
+  },
+  "homepage": "https://github.com/Bearbots6964/-FRC6964-Website#readme",
+  "dependencies": {
+    "three": "^0.175.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.80.0",
+    "webpack-cli": "^5.0.2",
+    "webpack-dev-server": "^4.13.3"
+  }
+}
